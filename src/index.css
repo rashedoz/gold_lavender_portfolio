@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply font-sans text-charcoal-900 bg-white antialiased;
+  }
+
+  /* Japanese body text gets relaxed line-height */
+  :lang(ja) body,
+  :lang(ja) p,
+  :lang(ja) li {
+    line-height: 2;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

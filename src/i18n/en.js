@@ -40,7 +40,6 @@ export default {
     sectionLabel: 'BUSINESSES',
     sectionTitle: 'What We Do',
     visitSite:    'Visit Site',
-    visitPage:    'Visit Page',
     units: [
       {
         id:          'halal',
@@ -61,20 +60,8 @@ export default {
         description: 'A specialist in buying and selling used iPhones and smartphones. We offer competitive prices for trade-ins and reliable quality on all devices sold, serving both individuals and businesses.',
         url:         'https://goldshirorom.com',
         tag:         'Used Devices',
-        logoType:    'placeholder',
-        logoColors:  { bg: '#1A1A1A', text: '#D4B800', accent: '#B57ED4' },
-      },
-      {
-        id:          'wifi',
-        name:        'Shinjuku WiFi & Mobile Shop',
-        nameJp:      '新宿WiFi・携帯ショップ',
-        category:    'WiFi & Mobile',
-        description: 'Pocket WiFi rental, mobile phone sales (new and used), and Hikari fiber internet contract support — tailored for foreign residents in Japan and inbound tourists.',
-        url:         'https://www.facebook.com/goldlavenderjp',
-        tag:         'WiFi & Mobile',
         logoType:    'image',
-        logoFile:    'wifi',
-        isFacebook:  true,
+        logoFile:    'shirorom',
       },
       {
         id:          'cloudon',

@@ -40,7 +40,6 @@ export default {
     sectionLabel: 'BUSINESSES',
     sectionTitle: '私たちのビジネス',
     visitSite:    'サイトを見る',
-    visitPage:    'ページを見る',
     units: [
       {
         id:          'halal',
@@ -61,20 +60,8 @@ export default {
         description: 'iPhoneをはじめとするスマートフォン・携帯電話の中古買取・販売専門店。高価買取と安心品質を両立し、法人・個人を問わず幅広くご対応いたします。',
         url:         'https://goldshirorom.com',
         tag:         '中古端末・買取',
-        logoType:    'placeholder',
-        logoColors:  { bg: '#1A1A1A', text: '#D4B800', accent: '#B57ED4' },
-      },
-      {
-        id:          'wifi',
-        name:        'Shinjuku WiFi & Mobile Shop',
-        nameJp:      '新宿WiFi・携帯ショップ',
-        category:    'WiFi・モバイル',
-        description: '海外旅行者・在日外国人向けのポケットWiFiレンタル、携帯電話（新品・中古）の販売、光インターネットサービスの契約サポートを提供しています。',
-        url:         'https://www.facebook.com/goldlavenderjp',
-        tag:         'WiFi・モバイル',
         logoType:    'image',
-        logoFile:    'wifi',
-        isFacebook:  true,
+        logoFile:    'shirorom',
       },
       {
         id:          'cloudon',

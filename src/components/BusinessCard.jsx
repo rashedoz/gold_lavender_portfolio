@@ -1,13 +1,13 @@
-import { ExternalLink, Facebook } from 'lucide-react'
+import { ExternalLink } from 'lucide-react'
 import { useLanguage } from '../context/LanguageContext'
-import halalLogo from '../assets/logos/halal.svg'
-import wifiLogo from '../assets/logos/wifi.svg'
-import cloudOnLogo from '../assets/logos/cloudon.svg'
+import halalLogo from '../assets/logos/shinjukuhalalfood.png'
+import shiroromLogo from '../assets/logos/goldshirorom.png'
+import cloudOnLogo from '../assets/logos/cloudon.png'
 
 const logoImages = {
-  halal:   halalLogo,
-  wifi:    wifiLogo,
-  cloudon: cloudOnLogo,
+  halal:    halalLogo,
+  shirorom: shiroromLogo,
+  cloudon:  cloudOnLogo,
 }
 
 function LogoPlaceholder({ name, colors }) {
@@ -43,7 +43,7 @@ export default function BusinessCard({ unit }) {
 
   const {
     name, nameJp, category, description,
-    url, tag, logoType, logoFile, logoColors, isFacebook,
+    url, tag, logoType, logoFile, logoColors,
   } = unit
 
   return (
@@ -99,8 +99,8 @@ export default function BusinessCard({ unit }) {
             transition-colors duration-200
           "
         >
-          {isFacebook ? <Facebook size={13} /> : <ExternalLink size={13} />}
-          {isFacebook ? t.businesses.visitPage : t.businesses.visitSite}
+          <ExternalLink size={13} />
+          {t.businesses.visitSite}
         </a>
       </div>
     </div>
